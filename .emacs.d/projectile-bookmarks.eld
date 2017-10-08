@@ -1,1 +1,0 @@
-("~/projects/docker_deploy/" "~/projects/articles/" "~/projects/anon_voter/" "~/projects/snimu-kvartiru/" "~/projects/ansible/")
