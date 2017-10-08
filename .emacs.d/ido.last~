@@ -1,0 +1,103 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/" . #("proc/" 0 3 (face flx-highlight-face)))
+ (#("/home/vf/projects/anon_voter/src/" 9 13 (face flx-highlight-face) 18 21 (face flx-highlight-face) 29 31 (face flx-highlight-face)) . #("components/" 0 3 (face flx-highlight-face)))
+ ("/home/vf/projects/anon_voter/" . #("src/" 0 2 (face flx-highlight-face)))
+ ("/usr/" . "share/")
+ ("/home/vf/go/" . "src/")
+ ("/home/vf/projects/" . #("anon_voter/" 0 4 (face flx-highlight-face)))
+ ("/home/vf/" . #("projects/" 0 4 (face flx-highlight-face)))
+ ("/home/vf/projects/snimu-kvartiru/" . "public/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ #("/home/vf/.emacs.d/" 9 18 (face flx-highlight-face))
+ #("/home/vf/projects/anon_voter/src/components/" 9 13 (face flx-highlight-face) 18 22 (face flx-highlight-face) 29 31 (face flx-highlight-face) 33 36 (face flx-highlight-face))
+ #("/home/vf/projects/articles/" 9 13 (face flx-highlight-face) 18 23 (face flx-highlight-face))
+ "/home/vf/projects/anon_voter/src/"
+ "/home/vf/projects/anon_voter/anon-voter/"
+ "/home/vf/projects/anon_voter/"
+ "/home/vf/tmp/"
+ "/usr/share/custom/"
+ "/home/vf/"
+ "/home/vf/go/src/hello/"
+ "/home/vf/projects/snimu-kvartiru/public/"
+ "/home/vf/projects/ansible/"
+ "/home/vf/projects/snimu-kvartiru/"
+ "/home/vf/Documents/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ #("Cask" 0 2 (face flx-highlight-face))
+ #("Voter.jsx" 0 2 (face flx-highlight-face))
+ "habr_ansible"
+ "db.json"
+ "index.js"
+ "init.el"
+ "package.json"
+ "test.js"
+ "antigen.zsh"
+ ".zshrc"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/vf/.emacs.d/" (22999 61862 990155 767000) "../" "./" "bookmarks" "init.el" "Cask" "auto-save-list/" ".cask/" "Cask~" "ido.last" "init.el~" "ido.last~" "projectile-bookmarks.eld")
+
+ ("/home/vf/projects/articles/" (22999 61908 373489 849000) "../" "./" ".git/" ".#habr_ansible")
+
+ ("/home/vf/tmp/" (22993 18611 386668 471000) "../" "tmp1" "./" "tmp2" "hello.sh" "package-query/" "hello.pl" "test.js" "makefile-tut/" "hello.pl~" "hello_2.pl" "emacs/" "hello.sh~")
+
+ ("/home/vf/" (22999 61800 196821 397000) ".gimp-2.8/" "Public/" "../" ".aws/" ".antigen/" ".ICEauthority" ".bash_logout" "./" ".PyCharmCE2017.2/" "sudo" "projects/" ".gnome/" ".ansible-aws/" ".spacemacs" ".cache/" "Videos/" ".esd_auth" ".ansible/" "Desktop/" "Downloads/" ".config/" ".WebStorm2017.2/" ".fontconfig/" ".emacs~" "image-of-the-day-py3/" ".python_history" ".local/" ".gitconfig" ".viminfo" ".emacs.d/" ".bash_profile" "Music/" ".java/" ".ssh/" ".vim/" ".bashrc" ".pki/" ".npm/" ".gnupg/" ".vimrc" ".gphoto/" "work/" ".cask/" "Documents/" ".emacs.d.bak.3/" ".node_repl_history" "Templates/" "www/" "go/" ".bash_history" "Pictures/" ".zshrc" ".zsh_history" ".emacs.d.bak.2/" "tmp/")
+
+ ("/home/vf/projects/" (22999 61789 490154 555000) "../" "anon_voter/" "./" "my-ansible/" "snimu-kvartiru/" "org-mode/" "dotfiles/" "ansible/" "articles/")
+
+ (#("/proc/" 1 4 (face flx-highlight-face)) (22992 36972 29999 997000) "32321/" "32274/" "30504/" "30498/" "30488/" "28802/" "25465/" "24825/" "23841/" "21596/" "21576/" "21106/" "20393/" "16642/" "16627/" "16592/" "16588/" "14554/" "12111/" "12097/" "12062/" "12057/" "12044/" "12025/" "11915/" "11899/" "11892/" "11885/" "11883/" "11800/" "11798/" "11797/" "11794/" "10890/" "10330/" "7473/" "7466/" "7395/" "6938/" "6909/" "6753/" "6585/" "6420/" "6300/" "5608/" "4210/" "3361/" "2625/" "2259/" "2257/" "2240/" "2197/" "2144/" "2140/" "2003/" "1629/" "1503/" "1375/" "1005/" "944/" "905/" "894/" "839/" "833/" "826/" "822/" "821/" "818/" "808/" "754/" "739/" "737/" "727/" "720/" "697/" "696/" "695/" "694/" "693/" "690/" "689/" "688/" "686/" "683/" "681/" "672/" "671/" "670/" "669/" "665/" "663/" "661/" "658/" "656/" "652/" "647/" "641/" "636/" "621/" "618/" "616/" "612/" "606/" "599/" "591/" "587/" "581/" "576/" "564/" "561/" "560/" "556/" "554/" "549/" "538/" "525/" "520/" "499/" "496/" "484/" "444/" "443/" "426/" "420/" "419/" "340/" "339/" "332/" "321/" "320/" "319/" "312/" "311/" "284/" "221/" "220/" "214/" "213/" "212/" "211/" "210/" "188/" "177/" "151/" "150/" "132/" "131/" "130/" "129/" "127/" "122/" "121/" "120/" "119/" "118/" "117/" "115/" "68/" "66/" "51/" "50/" "48/" "47/" "46/" "45/" "44/" "43/" "42/" "41/" "40/" "39/" "38/" "37/" "36/" "33/" "32/" "31/" "29/" "28/" "27/" "26/" "25/" "23/" "22/" "21/" "20/" "19/" "17/" "16/" "15/" "14/" "13/" "12/" "11/" "10/" "9/" "8/" "7/" "6/" "4/" "2/" "1/" "thread-self/" "self/" "sysrq-trigger" "pagetypeinfo" "vmallocinfo" "sched_debug" "kpagecgroup" "filesystems" "execdomains" "timer_list" "partitions" "kpageflags" "kpagecount" "interrupts" "schedstat" "key-users" "diskstats" "config.gz" "buddyinfo" "zoneinfo" "softirqs" "slabinfo" "kallsyms" "consoles" "version" "sysvipc/" "modules" "meminfo" "loadavg" "ioports" "devices" "cpuinfo" "cmdline" "cgroups" "vmstat" "uptime" "mounts" "driver/" "crypto" "asound/" "swaps" "locks" "kcore" "iomem" "stat" "scsi/" "mtrr" "misc" "kmsg" "keys" "acpi/" "tty/" "sys/" "net/" "irq/" "dma" "bus/" "fs/" "fb" "../" "./")
+
+ ("/home/vf/projects/anon_voter/src/" (22999 58543 283434 357000) "../" "components/" "index.js" "logo.svg" "./" "App.css~" "tests/" "App.css" "index.css" "registerServiceWorker.jsx" "App.jsx" "config.jsx" "App.jsx~" "App.test.jsx")
+
+ ("/home/vf/projects/anon_voter/src/components/" (22999 59597 570118 410000) "../" "Result.jsx~" "./" "Auth.jsx" "Voter.jsx~" "Voter.jsx" "Auth.jsx~" "Result.jsx")
+
+ (#("/home/vf/projects/anon_voter/" 9 13 (face flx-highlight-face) 18 21 (face flx-highlight-face)) (22998 41127 390006 288000) "../" "./" ".gitignore" "src/" "public/" "package.json" "node_modules/" ".git/" "package-lock.json")
+
+ ("/home/vf/projects/anon_voter/anon-voter/" (22994 42908 66679 811000) "../" "./" ".gitignore" "README.md" "package.json")
+
+ ("/home/vf/go/src/hello/" (22991 36691 853324 44000) "../" "hello.go" "./" "hello")
+
+ ("/usr/share/custom/" (22984 35364 399997 430000) "../" "./" "antigen.zsh" "pycharm-community-2017.2.3/" "node-v8.5.0-linux-x64/" "WebStorm-172.4155.35/")
+
+ ("/usr/share/" (22987 18427 83319 267000) "tc/" "../" "factory/" "git/" "adium/" "dict/" "dconf/" "doc/" "eog/" "cmake/" "libalpm/" "icons/" "aclocal-1.15/" "gnupg/" "libtool/" "djvu/" "defaults/" "nautilus-python/" "ghostscript/" "i18n/" "jack-audio-connection-kit/" "imlib2/" "kbd/" "git-gui/" "gnome/" "./" "xcb/" "xsessions/" "thumbnailers/" "yelp/" "sgml/" "makepkg-template/" "desktop-directories/" "glade/" "openal/" "wayland-protocols/" "epiphany/" "bison/" "apr-1/" "metainfo/" "aclocal/" "sounds/" "iso-codes/" "gitweb/" "farstream/" "common-lisp/" "pixmaps/" "ImageMagick-6/" "gnome-control-center/" "gnome-settings-daemon/" "hunspell/" "transmission-qt/" "gst-plugins-bad/" "slsh/" "libquvi-scripts/" "tabset/" "languagetool/" "appdata/" "info/" "fonts/" "gnome-tweak-tool/" "ca-certificates/" "keyutils/" "misc/" "empathy/" "backgrounds/" "libdrm/" "vte/" "gapi-2.0/" "dhcpcd/" "xml/" "grilo-plugins/" "alsa/" "gnome-shell/" "perl5/" "gtksourceview-3.0/" "gnome-color-manager/" "git-core/" "caribou/" "classes/" "libgweather/" "libthai/" "fish/" "sushi/" "libwacom/" "gtk-engines/" "gtk-2.0/" "file/" "gstreamer-1.0/" "installed-tests/" "cracklib/" "man/" "libcaca/" "antler/" "libgphoto2_port/" "applications/" "gitk/" "gnome-bluetooth/" "pulseaudio/" "gnome-background-properties/" "wayland-sessions/" "gir-1.0/" "makepkg/" "vlc/" "yelp-xsl/" "gst-plugins-base/" "gdict-1.0/" "cogl/" "color/" "libgnomekbd/" "tilix/" "zsh/" "lxterminal/" "avahi/" "et/" "pygobject/" "xdg-desktop-portal/" "colord/" "ffmpeg/" "ibus/" "awk/" "icu/" "mime/" "gedit/" "nano/" "glib-2.0/" "gimp/" "zoneinfo/" "p11-kit/" "osinfo/" "wayland/" "m17n/" "guake/" "lua/" "texinfo/" "X11/" "ansible/" "gcc-7.2.0/" "gdb/" "gvfs/" "licenses/" "polkit-1/" "dbus-1/" "hwdata/" "custom/" "hspell/" "mkinitcpio/" "apps/" "enchant/" "zenity/" "qt4/" "vim/" "gnome-online-accounts/" "gconf/" "tracker/" "GConf/" "guile/" "mythes/" "readline/" "httpd/" "myspell/" "totem/" "pygtk/" "autoconf/" "shared-color-targets/" "iana-etc/" "help/" "gettext-0.19.8/" "pkgconfig/" "locale/" "mousetweaks/" "java/" "gdm/" "bash-completion/" "graphite2/" "gettext/" "vala/" "gtk-3.0/" "telepathy/" "evince/" "gnome-session/" "pacman/" "systemd/" "libgphoto2/" "libgpg-error/" "icedtea-web/" "ss/" "themes/" "emacs/" "grub/" "t1lib/" "weston/" "terminfo/" "gnome-user-share/" "gtk-doc/" "automake-1.15/" "groff/" "glvnd/" "mobile-broadband-provider-info/" "evolution-data-server/")
+
+ ("/usr/" (22990 41506 803330 652000) "../" "./" "src/" "include/" "local/" "bin/" "lib64/" "share/" "sbin/" "lib/")
+
+ ("/home/vf/go/src/" (22991 36592 636657 995000) "../" "./" "hello/")
+
+ ("/home/vf/go/" (22991 36544 553324 974000) "../" "./" "src/")
+
+ ("/home/vf/image-of-the-day-py3/" (22969 42260 883300 630000) "../" "./" "bin/")
+
+ ("/home/vf/projects/snimu-kvartiru/public/" (22989 22798 786658 926000) "../" "style.css" "./" "favicon.ico" "manifest.json" "index.html")
+
+ ("/home/vf/projects/snimu-kvartiru/" (22988 3955 613314 814000) "../" "./" ".gitignore" "src/" "README.md" "public/" "package.json" "node_modules/" ".git/" "package-lock.json")
+
+ ("/home/vf/projects/snimu-kvartiru/src/" (22984 35921 29993 900000) "../" "index.js" "logo.svg" "./" "App.js" "App.css" "index.css" "registerServiceWorker.js" "App.test.js")
+
+ ("/home/vf/projects/ansible/" (22969 39130 406653 816000) "../" "Makefile" "CHANGELOG.md" "test/" "./" ".gitmodules" "ticket_stubs/" ".gitignore" "docs/" ".yamllint" ".mailmap" "ROADMAP.rst" "tox.ini" "RELEASES.txt" "README.md" "docsite_requirements.txt" "CODING_GUIDELINES.md" "VERSION" "packaging/" "MODULE_GUIDELINES.md" "MANIFEST.in" "COPYING" "CONTRIBUTING.md" "requirements.txt" ".idea/" "hacking/" "ansible-core-sitemap.xml" "bin/" ".git/" "shippable.yml" ".gitattributes" "contrib/" "lib/" "setup.py" "examples/" ".coveragerc" ".github/")
+
+ ("/home/vf/Documents/" (22985 61905 553310 632000) "alice_in_the_wonderland.txt" "../" "./")
+
+ ("/home/vf/Downloads/" (22984 39270 696639 324000) "../" "Lights.Out.(2016).BDRip.x264.AFM.mkv" "O'Reilly-Introduction to Ansible/" "Evi Nemeth, Garth Snyder, Trent R. Hein - UNIX and Linux System Administration Handbook, 4th Edition - 2010.pdf" "docker-commons.hpi" "ru-utf.map.gz" "Django-1.11.5-py2.py3-none-any.whl" "./" "WebStorm-2017.2.4.tar.gz" "b2bpolis-tinkoff-ui-22ab17f40c2f.zip" "[Pluralsight] Continuous Delivery Using Docker And Ansible [2016, ENG] [rutracker-5294752].torrent" "Chessbase 14/" "pycharm-community-2017.2.3.tar.gz" "Nemeth E., Snyder G., Hein T.R. - UNIX and Linux System Administration Handbook, 4th Edition [2010, PDF, ENG] [rutracker-3098283].torrent" "emacs.pdf" "ru-utf.map/" "node-v8.5.0-linux-x64/" "Continuous Delivery Using Docker And Ansible/" "rootkey.csv" "elisp.pdf" "tutsplus.com - Venture into Emacs Â® vampiri6ka/" "b2bpolis-tinkoff-ui.zip" "[O'Reilly Media] Introduction to Ansible [2016, ENG] [rutracker-5375354].torrent" "Chessbase 14 [L] [ENG] (2016) (14) [rutracker-5343052].torrent" "[tutsplus.com] Venture into Emacs [2014, ENG, HQ + LQ] [rutracker-4696388].torrent" "zshrc" "ansible-for-devops-sample.pdf" "download" "node-v8.5.0-linux-x64.tar.xz")
+
+ ("/dev/" (22983 36425 822128 980000) "vga_arbiter" "mem" "null" "port" "zero" "full" "random" "urandom" "kmsg" "tty" "console" "tty0" "vcs" "vcsa" "vcs1" "vcsa1" "tty1" "tty2" "tty3" "tty4" "tty5" "tty6" "tty7" "tty8" "tty9" "tty10" "tty11" "tty12" "tty13" "tty14" "tty15" "tty16" "tty17" "tty18" "tty19" "tty20" "tty21" "tty22" "tty23" "tty24" "tty25" "tty26" "tty27" "tty28" "tty29" "tty30" "tty31" "tty32" "tty33" "tty34" "tty35" "tty36" "tty37" "tty38" "tty39" "tty40" "tty41" "tty42" "tty43" "tty44" "tty45" "tty46" "tty47" "tty48" "tty49" "tty50" "tty51" "tty52" "tty53" "tty54" "tty55" "tty56" "tty57" "tty58" "tty59" "tty60" "tty61" "tty62" "tty63" "snapshot" "autofs" "ptmx" "ttyS0" "ttyS1" "ttyS2" "ttyS3" "hpet" "rtc0" "cpu/" "cpu_dma_latency" "network_latency" "network_throughput" "memory_bandwidth" "core" "fd/" "stdin" "stdout" "stderr" "char/" "rtc" "bus/" "bsg/" "sda" "sda1" "sda2" "sda3" "block/" "disk/" "shm/" "pts/" "initctl" "log" "hugepages/" "mqueue/" "fuse" "cuse" "btrfs-control" "loop-control" "net/" "ppp" "uinput" "mapper/" "vfio/" "vhci" "uhid" "vhost-net" "snd/" "mei0" "rfkill" "input/" "dri/" "drm_dp_aux0" "fb0" "watchdog" "watchdog0" "kvm" "psaux" "video0" "media0" "v4l/" "vcs2" "vcsa2" "vcs3" "vcsa3" "vcs4" "vcsa4" "vcs5" "vcsa5" "vcs6" "vcsa6" "../" "./")
+
+ ("/home/vf/Public/" (22968 25218 185309 281000) "../" "./")
+
+ ("/home/" (22968 22002 38425 631000) "../" "./" "vf/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

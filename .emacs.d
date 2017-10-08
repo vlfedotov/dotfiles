@@ -1,1 +1,0 @@
-/home/vf/.emacs.d

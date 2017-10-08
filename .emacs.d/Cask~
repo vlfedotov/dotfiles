@@ -1,0 +1,34 @@
+(source gnu)
+(source melpa)
+
+(package-file "~/.cask/cask.el")
+
+(files "*.el", "bin", "templates")
+
+(development
+  (depends-on "cask")
+  (depends-on "color-theme-sanityinc-tomorrow")
+  (depends-on "ace-jump-mode")
+  (depends-on "auto-complete")
+  (depends-on "flx-ido")
+  (depends-on "powerline")
+  (depends-on "linum-relative")
+  (depends-on "auto-complete")
+
+  (depends-on "go-mode")
+  (depends-on "elpy")
+  (depends-on "pomodoro")
+  (depends-on "rjsx-mode")
+
+  (depends-on "magit")
+
+  (depends-on "expand-region")
+  (depends-on "flycheck")
+  (depends-on "magit")
+  (depends-on "multiple-cursors")
+  (depends-on "projectile")
+  (depends-on "helm-projectile")
+  (depends-on "web-mode")
+  (depends-on "rainbow-mode")
+  (depends-on "emmet-mode")
+  (depends-on "yasnippet"))
