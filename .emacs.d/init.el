@@ -1,7 +1,3 @@
-;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want it,
-;; just comment it out by adding a semicolon to the start of the line.
-;; You may delete these explanatory comments.
 (package-initialize)
 
 (add-to-list 'load-path "~/projects/org-mode/lisp")
@@ -78,17 +74,29 @@
 (setq ido-enable-flex-matching t)
 (setq ido-use-faces nil)
 
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)
+
 ;(require 'dired-details)
 ;(setq-default dired-details-hidden-string "---")
 ;(dired-details-install)
 
 (setq dired-recursive-deletes (quote top))
+(add-hook 'dired-load-hook '(lambda () (require 'dired-x)))
+(setq dired-omit-mode t)
+;(setq-default dired-omit-files-p t)
+
+					;(setq dired-omit-files
+;                (concat dired-omit-files "\\.pyc$"))
+;(setq dired-omit-files "\\|^\\..+$\\|\\.pdf$\\|\\.pyc$")
 ;(define-key dired-mode-map (kbd "f") 'dired-find-alternate-file)
 ;(define-key dired-mode-map (kbd "^") (lambda ()
 ;                                       (interactive)
 ;                                       (find-alternate-file "..")))
 
+(global-set-key (kbd "C-x g") 'magit-status)
 
+(global-set-key (kbd "M-*") 'pop-tag-mark)
 
 (global-visual-line-mode t)
 

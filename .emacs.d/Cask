@@ -22,6 +22,7 @@
 
   (depends-on "yaml-mode")
   (depends-on "magit")
+  (depends-on "jedi")
 
   (depends-on "expand-region")
   (depends-on "flycheck")
