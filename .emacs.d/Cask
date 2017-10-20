@@ -24,6 +24,8 @@
   (depends-on "magit")
   (depends-on "jedi")
 
+  (depends-on "salt-mode")
+
   (depends-on "expand-region")
   (depends-on "flycheck")
   (depends-on "magit")
