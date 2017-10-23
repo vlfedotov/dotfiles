@@ -1,5 +1,7 @@
 (package-initialize)
 
+(setq-default frame-title-format '("%f"))
+
 (add-to-list 'load-path "~/projects/org-mode/lisp")
 
 (require 'cask "~/.cask/cask.el")
@@ -28,11 +30,30 @@
 (require 'powerline)
 (powerline-default-theme)
 
+(add-hook 'ecb-mode-hook 'ecb-restore-window-sizes)
+(defun ecb-activated-in-selected-frame ()
+    "A hack to use ECB in multiple frames. It first deactivates ECB, then
+    activate it in current frame."
+    (interactive)
+    (let ((current-frame (selected-frame)))
+        ; The frame foucs change when activating or deactivating ECB is weird, so
+        ; activate current selected frame explicitly.
+        (if (and (boundp 'ecb-minor-mode) (ecb-minor-mode))
+            (ecb-deactivate)
+        )
+        (select-frame current-frame)
+        (ecb-activate)
+        )
+    )
+
 (global-linum-mode t)
 
 (linum-mode)
 (linum-relative-global-mode)
 (setq linum-relative-current-symbol "")
+
+(setq whitespace-style '(face tabs lines-tail trailing))
+(global-whitespace-mode t)
 
 (require 'pomodoro)
 (pomodoro-add-to-mode-line)
@@ -132,6 +153,7 @@
  '(custom-safe-themes
    (quote
     ("628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" default)))
+ '(ecb-options-version "2.50")
  '(package-selected-packages
    (quote
     (better-defaults linum-relative powerline ace-jump-mode flx-ido expand-region color-theme-sanityinc-tomorrow))))
