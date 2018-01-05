@@ -1,0 +1,234 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_devops/ansible/plays/" . "group_vars/")
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_devops/ansible/" . "plays/")
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_devops/" . "ansible/")
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/" . "todo-project/")
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/" . "todo_devops/")
+ ("/home/vf/projects/articles/" . "ansible-docker-ci-cd/")
+ ("/home/vf/work/" . "casco-pomosch/")
+ ("/home/vf/projects/ansible-docker/docker-library/" . "python3.6.1/")
+ ("/home/vf/projects/ansible-docker/ansible/plays/" . "group_vars/")
+ ("/home/vf/tmp/" . "profiling/")
+ ("/home/vf/projects/ansible-docker/ansible/" . "plays/")
+ ("/home/vf/projects/ansible-docker/" . "ansible/")
+ ("/home/vf/projects/django-business-logic/" . "business_logic/")
+ ("/home/vf/projects/django-business-logic/business_logic/locale/ru/" . "LC_MESSAGES/")
+ ("/home/vf/projects/django-business-logic/business_logic/locale/" . "ru/")
+ ("/home/vf/projects/django-business-logic/business_logic/" . "models/")
+ ("/home/vf/projects/django-business-logic/sites/" . "dev/")
+ ("/home/vf/projects/docker_deploy/ansible/" . "plays/")
+ ("/home/vf/projects/docker_deploy/" . "ansible/")
+ ("/" . "proc/")
+ ("/home/vf/projects/anon_voter/src/" . "components/")
+ ("/home/vf/projects/anon_voter/" . "src/")
+ ("/usr/" . "share/")
+ ("/home/vf/go/" . "src/")
+ ("/home/vf/projects/" . "articles/")
+ ("/home/vf/" . "projects/")
+ ("/home/vf/projects/snimu-kvartiru/" . "public/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/vf/projects/articles/ansible-docker-ci-cd/"
+ "/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_devops/ansible/plays/group_vars/"
+ "/home/vf/.emacs.d/"
+ "/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_todo/"
+ "/home/vf/projects/django-business-logic/sites/dev/eosago/"
+ "/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_crm/"
+ "/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo-back/"
+ "/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo-back/tests/"
+ "/home/vf/work/casco-pomosch/"
+ "/home/vf/projects/articles/"
+ "/home/vf/projects/django-business-logic/business_logic/models/"
+ "/home/vf/projects/django-business-logic/sites/test/"
+ "/home/vf/projects/django-business-logic/sites/dev/"
+ "/home/vf/projects/django-business-logic/sites/"
+ "/home/vf/projects/ansible-docker/docker-library/python3.6.1/"
+ "/home/vf/projects/ansible-docker/ansible/plays/group_vars/"
+ "/home/vf/tmp/profiling/"
+ "/home/vf/tmp/evening_film/"
+ "/home/vf/projects/ansible-docker/ansible/plays/"
+ "/home/vf/projects/docker_deploy/ansible/plays/"
+ "/home/vf/projects/django-business-logic/"
+ "/home/vf/projects/django-business-logic/business_logic/locale/ru/LC_MESSAGES/"
+ "/home/vf/projects/ansible/"
+ "/home/vf/projects/pony/"
+ "/home/vf/projects/pbmysql/"
+ "/home/vf/tmp/"
+ "/home/vf/projects/anon_voter/src/components/"
+ "/home/vf/projects/anon_voter/src/"
+ "/home/vf/projects/anon_voter/anon-voter/"
+ "/home/vf/projects/anon_voter/"
+ "/usr/share/custom/"
+ "/home/vf/"
+ "/home/vf/go/src/hello/"
+ "/home/vf/projects/snimu-kvartiru/public/"
+ "/home/vf/projects/snimu-kvartiru/"
+ "/home/vf/Documents/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "habr_ansible"
+ "all.yml"
+ "Cask"
+ "run_server.py"
+ "views.py"
+ "app.py"
+ "pytest.ini"
+ "tests.py"
+ "tests_helpers.py"
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/vf/" (23040 8131 706651 143000) ".gimp-2.8/" "Public/" "../" ".aws/" ".gem/" ".antigen/" ".ICEauthority" ".bash_logout" "./" ".PyCharmCE2017.2/" "sudo" "projects/" ".gnome/" ".ansible-aws/" ".spacemacs" ".cache/" "Videos/" ".ecb-tip-of-day.el" ".esd_auth" ".ansible/" "Desktop/" "Downloads/" ".config/" ".WebStorm2017.2/" ".fontconfig/" ".emacs~" "image-of-the-day-py3/" ".python_history" ".local/" ".v8flags.6.0.287.53.6abe33f215bcc63cbd8f92c19e7cd537.json" ".pip/" ".gitconfig" ".viminfo" ".emacs.d/" ".tox/" ".bash_profile" "Music/" ".java/" ".ssh/" ".vim/" ".bashrc" ".pki/" ".npm/" ".gnupg/" ".node-gyp/" ".ipython/" ".vimrc" ".wget-hsts" ".gphoto/" "work/" ".cask/" "Documents/" ".jupyter/" ".httpie/" ".node_repl_history" "Templates/" "www/" "go/" ".bash_history" "Pictures/" ".zshrc" ".zsh_history" ".geeknote/" "tmp/")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_devops/ansible/plays/group_vars/" (23032 59265 689968 896000) "../" "./" "all.yml")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_devops/ansible/plays/" (23032 59265 703302 229000) "../" "./" "group_vars/" "make-images.yml" "deploy-and-run-images.yml" "ansible.cfg")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_devops/ansible/" (23032 59265 769968 896000) "../" "./" "plays/" "testing.ini" "modules/" "roles/" "develop.ini")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_devops/" (23032 59545 546633 788000) "../" "Makefile" "./" "projects/" ".gitignore" "venv/" "requirements/" "ansible/" ".git/")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/" (23030 4978 423328 118000) "../" "./" "todo_crm/" "todo_todo/" "todo_devops/")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/" (23031 31182 766662 578000) "../" "./" "habr_ansible~" "habr_ansible" "todo-project/")
+
+ ("/home/vf/.emacs.d/" (23031 31353 816661 489000) "../" "session.1097ad4b92481118dc150745873765734800000004440094" "./" ".python-environments/" "init.el.before_ecb_2.50__1" "bookmarks" "init.el" "Cask" "init.el.before_ecb_2.50" "eshell/" "url/" "ac-comphist.dat" "sdf.py" "auto-save-list/" ".cask/" "ido.last" "ido.last~" "projectile-bookmarks.eld")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_crm/doker/develop/" (23031 31355 896661 485000) "../" "Makefile" "./" "Dockerfile" ".#Dockerfile")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_todo/" (23030 4538 163330 911000) "LICENSE" "../" "./" "Procfile" "runtime.txt" ".gitignore" "pytest.ini" "TAGS" ".cache/" "circle.yml" "README.md" "tests/" "__pycache__/" "run_server.py" "venv/" "requirements.txt" "__init__.py" ".git/" "docker/" "requirements.dev.txt" ".env.template" "todo_todo/")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo_crm/" (23030 2473 689996 115000) "../" "./" ".gitignore" "todo_crm/" "pytest.ini" "app.py~" ".cache/" "tests/" "__pycache__/" "run_server.py" "venv/" "requirements.txt" "__init__.py" ".git/" "run_server.py~")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo-back/todobackend/" (23024 59952 863310 9000) "../" "models.py" "./" ".#models.py" "__pycache__/" "__init__.py" "middleware.py" "views.py" ".#middleware.py")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo-back/" (23024 59620 913312 114000) "LICENSE" "../" "./" "Procfile" "runtime.txt" ".gitignore" "requirements.dev.txt~" "circle.yml" "README.md" "tests/" "run_server.py" "venv/" "requirements.txt" ".git/" "docker/" "todobackend/" "requirements.dev.txt" ".env.template")
+
+ ("/home/vf/projects/articles/ansible-docker-ci-cd/todo-project/todo-back/tests/" (23024 59568 923312 443000) "tests.py" "../" "./" "__pycache__/" "tests.py~")
+
+ ("/home/vf/tmp/" (23022 15944 360600 717000) "../" "case.sh" "tmp1" "./" "tmp2" "hello.sh" "package-query/" "func.sh" "__pycache__/" "profiling/" "evening_film/" "hello.pl" "loop.sh" "db.sqlite" "test.js" "dabeaz_reinvention.py~" "arith.sh" "makefile-tut/" "dabeaz_reinvention.py" "hello.pl~" "hello_2.pl" "emacs/" "hello.sh~")
+
+ ("/home/vf/projects/django-business-logic/" (23022 25651 216644 190000) "LICENSE.txt" "../" "app.json" "resetdb.sh" "business_logic/" "./" "Procfile" ".gitmodules" ".gitignore" ".travis.yml" "TAGS" ".cache/" "tox.ini" ".coverage" "README.md" "tests/" "makemigration.sh" "venv/" "MANIFEST.in" "setup.cfg" "requirements.txt" "bin/" ".git/" "sites/" "requirements.dev.txt" "Pipfile" ".gitattributes" "django_business_logic.egg-info/" "setup.py" "manage.py" "README.rst" "frontend/" ".coveragerc")
+
+ ("/home/vf/projects/ansible-docker/ansible/plays/" (23011 37883 756630 685000) "../" "./" "group_vars/" "make-images.yml" "deploy-and-run-images.yml" "ansible.cfg")
+
+ ("/home/vf/tmp/profiling/" (23011 30589 173307 769000) "../" "./" "benchmark.py" ".cache/" "__pycache__/" "main.py~" "test_evolve.py~" "test_evolve.py" "__init__.py" ".benchmarks/" "main.py" "prof.out")
+
+ ("/home/vf/projects/ansible-docker/ansible/plays/group_vars/" (23011 37895 493297 280000) "../" "./" "all.yml")
+
+ ("/home/vf/projects/django-business-logic/sites/" (23022 23794 453322 631000) "../" "db.sqlite3" "__init__.pyc" "test/" "./" "settings.py" "__pycache__/" "settings.pyc" "__init__.py" "dev/")
+
+ ("/home/vf/projects/django-business-logic/sites/dev/" (23022 25651 216644 190000) "../" "__init__.pyc" "wsgi.py" "./" "settings.py" "__pycache__/" "fixtures/" "__init__.py" "heroku/" "books/" "eosago/" "urls.py")
+
+ ("/home/vf/projects/django-business-logic/sites/dev/eosago/" (23022 16972 273625 213000) "../" "__init__.pyc" "models.py" "./" "__pycache__/" "data/" "admin.py" "__init__.py" "migrations/" "static/" "views.py" "urls.py")
+
+ ("/home/vf/projects/django-business-logic/sites/test/" (23022 16972 320291 879000) "../" "__init__.pyc" "wsgi.py" "./" "settings.py" "__pycache__/" "settings.pyc" "urls.pyc" "__init__.py" "urls.py")
+
+ ("/home/vf/projects/django-business-logic/business_logic/models/" (23022 16972 60291 880000) "../" "frame.pyc" "table.py" "__init__.pyc" "variable.py" "constant.pyc" "./" "foreach.pyc" "node.py" "types_.py" "log.py" "ifstatement.pyc" "foreach.py" "context.pyc" "types_.pyc" "constant.py" "function.py" "__pycache__/" "reference.py" "function.pyc" "ifstatement.py" "operator_.pyc" "program.pyc" "operator_.py" "__init__.py" "program.py" "assignment.py" "node.pyc" "stop.pyc" "log.pyc" "frame.py" "variable.pyc" "reference.pyc" "stop.py" "table.pyc" "context.py" "assignment.pyc")
+
+ ("/home/vf/work/casco-pomosch/" (23023 4800 344119 610000) "../" "etc/" "media/" "car_groups/" "requirements-old-weasy.txt" "tests_helpers.py" "wsgi.py" "./" "INSTALL" "general_preferences/" ".gitignore" "logic/" "tox.ini" "manage.sh" "api/" "tests/" "settings/" "venv/" "data/" "fixtures/" "accounts/" "externals/" "requirements.txt" "__init__.py" "site-packages/" "bin/" ".git/" "static/" "apps/" "logic_test/" "scripts/" "locale/" "main/" "requirements-new-weasy.txt" "lib/" "djangorestframework/" "manage.py" "tmp/" "management/" "reports/")
+
+ ("/home/vf/projects/articles/" (23024 58060 86655 345000) "../" "./" ".git/" "ansible-docker-ci-cd/")
+
+ ("/home/vf/projects/" (23023 41932 976633 265000) "../" "django-business-logic/" "anon_voter/" "./" "my-ansible/" "docker_deploy/" "ansible-docker/" "zuki-themes/" "snimu-kvartiru/" "org-mode/" "dotfiles/" "ansible/" "articles/" "todobackend-aiohttp/" "ansible-docker.bak/" "pbmysql/" "pony/")
+
+ ("/home/vf/work/" (23023 4266 997456 317000) "../" "./" "tinkoff-ui/" "casco-pomosch/")
+
+ ("/home/vf/projects/django-business-logic/business_logic/blockly/" (23022 26726 86637 373000) "../" "exceptions.pyc" "create.pyc" "__init__.pyc" "create.py" "./" "parse.py" "build.py" "__pycache__/" "data.py" "data.pyc" "exceptions.py" "parse.pyc" "__init__.py" "build.pyc")
+
+ ("/home/vf/projects/django-business-logic/tests/test_app/" (23009 60830 363313 590000) "../" "__init__.pyc" "models.py" "./" "__pycache__/" "models.pyc" "__init__.py")
+
+ ("/home/vf/projects/dotfiles/.emacs.d/" (23018 23326 633322 987000) "../" "session.1097ad4b92481118dc150745873765734800000004440094" "./" ".python-environments/" "bookmarks" "init.el" "Cask" "ac-comphist.dat" "auto-save-list/" ".cask/" "ido.last" "ido.last~" "projectile-bookmarks.eld")
+
+ ("/home/vf/projects/django-business-logic/tests/" (23018 22857 813325 960000) "test_constant.py" "../" "test_ifstatement.pyc" "test_context.pyc" "test_assignment.pyc" "test_function.py" "__init__.pyc" "test_frame.pyc" "test_log.py" "test_constant.pyc" "./" "utils.py" ".#test_log.py" "test_program.pyc" "rest/" "test_node.pyc" "utils.pyc" "__pycache__/" "test_program.py" "common.pyc" "test_frame.py" "blockly/" "test_signals.py" "test_operator.py" "test_signals.pyc" "__init__.py" "common.py" "test_operator.pyc" "test_variable.py" "test_reference.py" "test_reference.pyc" "test_stop.pyc" "test_ifstatement.py" "test_function.pyc" "test_assignment.py" "test_node.py" "test_log.pyc" "test_variable.pyc" "test_stop.py" "test_context.py" "test_app/" "reports/")
+
+ ("/home/vf/projects/django-business-logic/business_logic/rest/" (23015 44700 443325 347000) "../" "__init__.pyc" "serializers.py" "./" "__pycache__/" "urls.pyc" "__init__.py" "serializers.pyc" "views.py" "views.pyc" "urls.py")
+
+ ("/home/vf/projects/django-business-logic/business_logic/" (23017 5072 586650 389000) "../" "models/" "exceptions.pyc" "config.py" "__init__.pyc" "./" "utils.py" "rest/" "fields.py" "utils.pyc" "__pycache__/" "config.pyc" "validators.pyc" "signals.py" "admin.py" "urls.pyc" "blockly/" "exceptions.py" "__init__.py" "migrations/" "fields.pyc" "admin.pyc" "static/" "locale/" "validators.py" "signals.pyc" "urls.py")
+
+ ("/home/vf/projects/ansible-docker/docker-library/python3.6.1/" (23011 5286 459995 850000) "../" "./" "Dockerfile")
+
+ ("/home/vf/projects/ansible-docker/docker-library/" (23011 33082 459994 461000) "../" "python3.6.1/" "./" "python2.7.13/" "mysql/")
+
+ ("/home/vf/projects/ansible-docker/docker-library/python2.7.13/" (23011 33938 689989 32000) "../" "Dockerfile~" "./" "Dockerfile")
+
+ ("/home/vf/tmp/evening_film/" (23011 21513 866653 370000) "../" "spec/" "./" "figures/" "README.md" ".git/" "films/" "lib/" "main.rb")
+
+ ("/home/vf/projects/ansible-docker/ansible/" (23011 5286 153329 185000) "../" "Makefile" "./" "plays/" "testing.ini" "modules/" "roles/" "develop.ini")
+
+ ("/home/vf/projects/ansible-docker/" (23011 5286 459995 850000) "LICENSE" "../" "docker-library/" "./" "projects/" "README.md" "ansible/" ".git/")
+
+ ("/home/vf/projects/docker_deploy/ansible/plays/" (23011 5096 453330 387000) "pull-release-project.yml" "../" "./" "group_vars/" "push-release-project.yml" ".#ansible.cfg" "ansible.cfg" "build-release-project.yml")
+
+ ("/home/vf/projects/docker_deploy/ansible/" (23001 56196 750065 444000) "../" "Makefile" "./" "plays/" "testing.ini" "modules/" "roles/" "develop.ini")
+
+ ("/home/vf/projects/django-business-logic/business_logic/locale/ru/LC_MESSAGES/" (23009 58881 363325 950000) "../" "./" "django.po" "django.mo")
+
+ ("/home/vf/projects/django-business-logic/business_logic/locale/ru/" (23009 58881 363325 950000) "../" "./" "LC_MESSAGES/")
+
+ ("/home/vf/projects/django-business-logic/business_logic/locale/" (23009 58881 339992 617000) "../" "./" "ru/")
+
+ ("/home/vf/projects/pony/" (23009 58788 296659 874000) "LICENSE" "../" "CHANGELOG.md" "./" ".gitignore" "docs/" "README.md" "MANIFEST.in" ".git/" "setup.py" "pony/")
+
+ ("/home/vf/projects/pony/pony/" (23009 44106 91626 415000) "../" "py23compat.py" "./" "converting.py" "__pycache__/" "utils/" "options.py" "__init__.py" "javascript/" "thirdparty/" "orm/")
+
+ ("/home/vf/projects/pony/pony/orm/" (23009 44569 968290 138000) "asttranslation.py" "../" "ormtypes.py" "./" "serialization.py" "dbproviders/" ".#core.py" "tests/" "__pycache__/" ".#__init__.py" "core.py" "sqltranslation.py" "sqlsymbols.py" "dbapiprovider.py" "__init__.py" "dbschema.py" "sqlbuilding.py" "integration/" "decompiling.py" "examples/")
+
+ ("/home/vf/projects/pbmysql/" (23009 12006 39963 107000) "../" "tinkoff.test.progress.sm.sql" "test" "./" "pbmysql.py" "venv/" ".git/" "pbmysql.py~")
+
+ ("/home/vf/projects/anon_voter/src/components/" (23000 53709 396667 300000) "../" "Result.jsx~" "./" "Auth.jsx" "Voter.jsx~" "Voter.jsx" "Auth.jsx~" "Result.jsx")
+
+ ("/home/vf/projects/docker_deploy/" (23001 52862 930010 470000) "../" "docker-library/" "./" "projects/" ".gitignore" "README.md" "ansible/" ".git/")
+
+ ("/proc/" (22992 36972 29999 997000) "32321/" "32274/" "30504/" "30498/" "30488/" "28802/" "25465/" "24825/" "23841/" "21596/" "21576/" "21106/" "20393/" "16642/" "16627/" "16592/" "16588/" "14554/" "12111/" "12097/" "12062/" "12057/" "12044/" "12025/" "11915/" "11899/" "11892/" "11885/" "11883/" "11800/" "11798/" "11797/" "11794/" "10890/" "10330/" "7473/" "7466/" "7395/" "6938/" "6909/" "6753/" "6585/" "6420/" "6300/" "5608/" "4210/" "3361/" "2625/" "2259/" "2257/" "2240/" "2197/" "2144/" "2140/" "2003/" "1629/" "1503/" "1375/" "1005/" "944/" "905/" "894/" "839/" "833/" "826/" "822/" "821/" "818/" "808/" "754/" "739/" "737/" "727/" "720/" "697/" "696/" "695/" "694/" "693/" "690/" "689/" "688/" "686/" "683/" "681/" "672/" "671/" "670/" "669/" "665/" "663/" "661/" "658/" "656/" "652/" "647/" "641/" "636/" "621/" "618/" "616/" "612/" "606/" "599/" "591/" "587/" "581/" "576/" "564/" "561/" "560/" "556/" "554/" "549/" "538/" "525/" "520/" "499/" "496/" "484/" "444/" "443/" "426/" "420/" "419/" "340/" "339/" "332/" "321/" "320/" "319/" "312/" "311/" "284/" "221/" "220/" "214/" "213/" "212/" "211/" "210/" "188/" "177/" "151/" "150/" "132/" "131/" "130/" "129/" "127/" "122/" "121/" "120/" "119/" "118/" "117/" "115/" "68/" "66/" "51/" "50/" "48/" "47/" "46/" "45/" "44/" "43/" "42/" "41/" "40/" "39/" "38/" "37/" "36/" "33/" "32/" "31/" "29/" "28/" "27/" "26/" "25/" "23/" "22/" "21/" "20/" "19/" "17/" "16/" "15/" "14/" "13/" "12/" "11/" "10/" "9/" "8/" "7/" "6/" "4/" "2/" "1/" "thread-self/" "self/" "sysrq-trigger" "pagetypeinfo" "vmallocinfo" "sched_debug" "kpagecgroup" "filesystems" "execdomains" "timer_list" "partitions" "kpageflags" "kpagecount" "interrupts" "schedstat" "key-users" "diskstats" "config.gz" "buddyinfo" "zoneinfo" "softirqs" "slabinfo" "kallsyms" "consoles" "version" "sysvipc/" "modules" "meminfo" "loadavg" "ioports" "devices" "cpuinfo" "cmdline" "cgroups" "vmstat" "uptime" "mounts" "driver/" "crypto" "asound/" "swaps" "locks" "kcore" "iomem" "stat" "scsi/" "mtrr" "misc" "kmsg" "keys" "acpi/" "tty/" "sys/" "net/" "irq/" "dma" "bus/" "fs/" "fb" "../" "./")
+
+ ("/home/vf/projects/anon_voter/src/" (22999 58543 283434 357000) "../" "components/" "index.js" "logo.svg" "./" "App.css~" "tests/" "App.css" "index.css" "registerServiceWorker.jsx" "App.jsx" "config.jsx" "App.jsx~" "App.test.jsx")
+
+ ("/home/vf/projects/anon_voter/" (22998 41127 390006 288000) "../" "./" ".gitignore" "src/" "public/" "package.json" "node_modules/" ".git/" "package-lock.json")
+
+ ("/home/vf/projects/anon_voter/anon-voter/" (22994 42908 66679 811000) "../" "./" ".gitignore" "README.md" "package.json")
+
+ ("/home/vf/go/src/hello/" (22991 36691 853324 44000) "../" "hello.go" "./" "hello")
+
+ ("/usr/share/custom/" (22984 35364 399997 430000) "../" "./" "antigen.zsh" "pycharm-community-2017.2.3/" "node-v8.5.0-linux-x64/" "WebStorm-172.4155.35/")
+
+ ("/usr/share/" (22987 18427 83319 267000) "tc/" "../" "factory/" "git/" "adium/" "dict/" "dconf/" "doc/" "eog/" "cmake/" "libalpm/" "icons/" "aclocal-1.15/" "gnupg/" "libtool/" "djvu/" "defaults/" "nautilus-python/" "ghostscript/" "i18n/" "jack-audio-connection-kit/" "imlib2/" "kbd/" "git-gui/" "gnome/" "./" "xcb/" "xsessions/" "thumbnailers/" "yelp/" "sgml/" "makepkg-template/" "desktop-directories/" "glade/" "openal/" "wayland-protocols/" "epiphany/" "bison/" "apr-1/" "metainfo/" "aclocal/" "sounds/" "iso-codes/" "gitweb/" "farstream/" "common-lisp/" "pixmaps/" "ImageMagick-6/" "gnome-control-center/" "gnome-settings-daemon/" "hunspell/" "transmission-qt/" "gst-plugins-bad/" "slsh/" "libquvi-scripts/" "tabset/" "languagetool/" "appdata/" "info/" "fonts/" "gnome-tweak-tool/" "ca-certificates/" "keyutils/" "misc/" "empathy/" "backgrounds/" "libdrm/" "vte/" "gapi-2.0/" "dhcpcd/" "xml/" "grilo-plugins/" "alsa/" "gnome-shell/" "perl5/" "gtksourceview-3.0/" "gnome-color-manager/" "git-core/" "caribou/" "classes/" "libgweather/" "libthai/" "fish/" "sushi/" "libwacom/" "gtk-engines/" "gtk-2.0/" "file/" "gstreamer-1.0/" "installed-tests/" "cracklib/" "man/" "libcaca/" "antler/" "libgphoto2_port/" "applications/" "gitk/" "gnome-bluetooth/" "pulseaudio/" "gnome-background-properties/" "wayland-sessions/" "gir-1.0/" "makepkg/" "vlc/" "yelp-xsl/" "gst-plugins-base/" "gdict-1.0/" "cogl/" "color/" "libgnomekbd/" "tilix/" "zsh/" "lxterminal/" "avahi/" "et/" "pygobject/" "xdg-desktop-portal/" "colord/" "ffmpeg/" "ibus/" "awk/" "icu/" "mime/" "gedit/" "nano/" "glib-2.0/" "gimp/" "zoneinfo/" "p11-kit/" "osinfo/" "wayland/" "m17n/" "guake/" "lua/" "texinfo/" "X11/" "ansible/" "gcc-7.2.0/" "gdb/" "gvfs/" "licenses/" "polkit-1/" "dbus-1/" "hwdata/" "custom/" "hspell/" "mkinitcpio/" "apps/" "enchant/" "zenity/" "qt4/" "vim/" "gnome-online-accounts/" "gconf/" "tracker/" "GConf/" "guile/" "mythes/" "readline/" "httpd/" "myspell/" "totem/" "pygtk/" "autoconf/" "shared-color-targets/" "iana-etc/" "help/" "gettext-0.19.8/" "pkgconfig/" "locale/" "mousetweaks/" "java/" "gdm/" "bash-completion/" "graphite2/" "gettext/" "vala/" "gtk-3.0/" "telepathy/" "evince/" "gnome-session/" "pacman/" "systemd/" "libgphoto2/" "libgpg-error/" "icedtea-web/" "ss/" "themes/" "emacs/" "grub/" "t1lib/" "weston/" "terminfo/" "gnome-user-share/" "gtk-doc/" "automake-1.15/" "groff/" "glvnd/" "mobile-broadband-provider-info/" "evolution-data-server/")
+
+ ("/usr/" (22990 41506 803330 652000) "../" "./" "src/" "include/" "local/" "bin/" "lib64/" "share/" "sbin/" "lib/")
+
+ ("/home/vf/go/src/" (22991 36592 636657 995000) "../" "./" "hello/")
+
+ ("/home/vf/go/" (22991 36544 553324 974000) "../" "./" "src/")
+
+ ("/home/vf/image-of-the-day-py3/" (22969 42260 883300 630000) "../" "./" "bin/")
+
+ ("/home/vf/projects/snimu-kvartiru/public/" (22989 22798 786658 926000) "../" "style.css" "./" "favicon.ico" "manifest.json" "index.html")
+
+ ("/home/vf/projects/snimu-kvartiru/" (22988 3955 613314 814000) "../" "./" ".gitignore" "src/" "README.md" "public/" "package.json" "node_modules/" ".git/" "package-lock.json")
+
+ ("/home/vf/projects/snimu-kvartiru/src/" (22984 35921 29993 900000) "../" "index.js" "logo.svg" "./" "App.js" "App.css" "index.css" "registerServiceWorker.js" "App.test.js")
+
+ ("/home/vf/projects/ansible/" (22969 39130 406653 816000) "../" "Makefile" "CHANGELOG.md" "test/" "./" ".gitmodules" "ticket_stubs/" ".gitignore" "docs/" ".yamllint" ".mailmap" "ROADMAP.rst" "tox.ini" "RELEASES.txt" "README.md" "docsite_requirements.txt" "CODING_GUIDELINES.md" "VERSION" "packaging/" "MODULE_GUIDELINES.md" "MANIFEST.in" "COPYING" "CONTRIBUTING.md" "requirements.txt" ".idea/" "hacking/" "ansible-core-sitemap.xml" "bin/" ".git/" "shippable.yml" ".gitattributes" "contrib/" "lib/" "setup.py" "examples/" ".coveragerc" ".github/")
+
+ ("/home/vf/Documents/" (22985 61905 553310 632000) "alice_in_the_wonderland.txt" "../" "./")
+
+ ("/home/vf/Downloads/" (22984 39270 696639 324000) "../" "Lights.Out.(2016).BDRip.x264.AFM.mkv" "O'Reilly-Introduction to Ansible/" "Evi Nemeth, Garth Snyder, Trent R. Hein - UNIX and Linux System Administration Handbook, 4th Edition - 2010.pdf" "docker-commons.hpi" "ru-utf.map.gz" "Django-1.11.5-py2.py3-none-any.whl" "./" "WebStorm-2017.2.4.tar.gz" "b2bpolis-tinkoff-ui-22ab17f40c2f.zip" "[Pluralsight] Continuous Delivery Using Docker And Ansible [2016, ENG] [rutracker-5294752].torrent" "Chessbase 14/" "pycharm-community-2017.2.3.tar.gz" "Nemeth E., Snyder G., Hein T.R. - UNIX and Linux System Administration Handbook, 4th Edition [2010, PDF, ENG] [rutracker-3098283].torrent" "emacs.pdf" "ru-utf.map/" "node-v8.5.0-linux-x64/" "Continuous Delivery Using Docker And Ansible/" "rootkey.csv" "elisp.pdf" "tutsplus.com - Venture into Emacs Â® vampiri6ka/" "b2bpolis-tinkoff-ui.zip" "[O'Reilly Media] Introduction to Ansible [2016, ENG] [rutracker-5375354].torrent" "Chessbase 14 [L] [ENG] (2016) (14) [rutracker-5343052].torrent" "[tutsplus.com] Venture into Emacs [2014, ENG, HQ + LQ] [rutracker-4696388].torrent" "zshrc" "ansible-for-devops-sample.pdf" "download" "node-v8.5.0-linux-x64.tar.xz")
+
+ ("/dev/" (22983 36425 822128 980000) "vga_arbiter" "mem" "null" "port" "zero" "full" "random" "urandom" "kmsg" "tty" "console" "tty0" "vcs" "vcsa" "vcs1" "vcsa1" "tty1" "tty2" "tty3" "tty4" "tty5" "tty6" "tty7" "tty8" "tty9" "tty10" "tty11" "tty12" "tty13" "tty14" "tty15" "tty16" "tty17" "tty18" "tty19" "tty20" "tty21" "tty22" "tty23" "tty24" "tty25" "tty26" "tty27" "tty28" "tty29" "tty30" "tty31" "tty32" "tty33" "tty34" "tty35" "tty36" "tty37" "tty38" "tty39" "tty40" "tty41" "tty42" "tty43" "tty44" "tty45" "tty46" "tty47" "tty48" "tty49" "tty50" "tty51" "tty52" "tty53" "tty54" "tty55" "tty56" "tty57" "tty58" "tty59" "tty60" "tty61" "tty62" "tty63" "snapshot" "autofs" "ptmx" "ttyS0" "ttyS1" "ttyS2" "ttyS3" "hpet" "rtc0" "cpu/" "cpu_dma_latency" "network_latency" "network_throughput" "memory_bandwidth" "core" "fd/" "stdin" "stdout" "stderr" "char/" "rtc" "bus/" "bsg/" "sda" "sda1" "sda2" "sda3" "block/" "disk/" "shm/" "pts/" "initctl" "log" "hugepages/" "mqueue/" "fuse" "cuse" "btrfs-control" "loop-control" "net/" "ppp" "uinput" "mapper/" "vfio/" "vhci" "uhid" "vhost-net" "snd/" "mei0" "rfkill" "input/" "dri/" "drm_dp_aux0" "fb0" "watchdog" "watchdog0" "kvm" "psaux" "video0" "media0" "v4l/" "vcs2" "vcsa2" "vcs3" "vcsa3" "vcs4" "vcsa4" "vcs5" "vcsa5" "vcs6" "vcsa6" "../" "./")
+
+ ("/home/vf/Public/" (22968 25218 185309 281000) "../" "./")
+
+ ("/home/" (22968 22002 38425 631000) "../" "./" "vf/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

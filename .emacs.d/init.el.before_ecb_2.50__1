@@ -30,7 +30,6 @@
 (require 'powerline)
 (powerline-default-theme)
 
-(add-hook 'ecb-mode-hook 'ecb-restore-window-sizes)
 (defun ecb-activated-in-selected-frame ()
     "A hack to use ECB in multiple frames. It first deactivates ECB, then
     activate it in current frame."
@@ -52,8 +51,7 @@
 (linum-relative-global-mode)
 (setq linum-relative-current-symbol "")
 
-(setq whitespace-style '(face tabs))
-; (setq whitespace-style '(face tabs lines-tail trailing))
+(setq whitespace-style '(face tabs lines-tail trailing))
 (global-whitespace-mode t)
 
 (require 'pomodoro)
@@ -69,9 +67,6 @@
 (global-set-key (kbd "C-o") 'er/expand-region)
 
 (global-set-key (kbd "C-c SPC") 'ace-jump-mode)
-
-(global-set-key (kbd "C-c C-/") 'comment-region)
-(global-set-key (kbd "C-c C-'") 'uncomment-region)
 
 (setq python-shell-interpreter "ipython"
       python-shell-interpreter-args "--colors=Linux --profile=default"

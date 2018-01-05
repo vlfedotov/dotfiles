@@ -1,0 +1,11 @@
+sdf
+echo ee
+exit
+ls
+cd todo-project/
+ls
+mv todo-ops/ todo_devops
+ls
+mkdir todo_crm
+cd todo_crm/
+ls

@@ -1,0 +1,42 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".youtube.com"
+  [url-cookie "VISITOR_INFO1_LIVE" "vBwjhsn6npE" "21-Jun-2018 23:14:43.00 GMT" "/" ".youtube.com" nil]
+  [url-cookie "PREF" "f1=50000000" "21-Jun-2018 23:14:43.00 GMT" "/" ".youtube.com" nil])
+ (".yandex.ru"
+  [url-cookie "Max-Age" "315360000" "20-Oct-2027 10:13:34.00 GMT" "/" ".yandex.ru" nil]
+  [url-cookie "yandexuid" "3682729161508667214" "20-Oct-2027 10:13:34.00 GMT" "/" ".yandex.ru" nil])
+ ("translate.yandex.ru"
+  [url-cookie "first_visit_src" "organic" "20-Oct-2027 10:13:34.00 GMT" "/" "translate.yandex.ru" nil]
+  [url-cookie "stoken" "0d438b94.5fc7e013" "22-Oct-2018 10:13:34.00 GMT" "/" "translate.yandex.ru" nil]
+  [url-cookie "Max-Age" "315360000" "20-Oct-2027 10:13:34.00 GMT" "/" "translate.yandex.ru" nil]
+  [url-cookie "first_visit" "1" "20-Oct-2027 10:13:34.00 GMT" "/" "translate.yandex.ru" nil])
+ (".stackexchange.com"
+  [url-cookie "HttpOnly" nil "01-Jan-2055 00:00:00.00 GMT" "/" ".stackexchange.com" nil]
+  [url-cookie "prov" "202e058d-a72c-38b5-c5e1-04495064edae" "01-Jan-2055 00:00:00.00 GMT" "/" ".stackexchange.com" nil])
+ (".kinopoisk.ru"
+  [url-cookie "mobile" "no" "28-Oct-2017 11:44:29.00 GMT" "/" ".kinopoisk.ru" nil]
+  [url-cookie "Max-Age" "604800" "28-Oct-2017 11:44:29.00 GMT" "/" ".kinopoisk.ru" nil])
+ (".ipython.org"
+  [url-cookie "__cfduid" "d102c125f7d93277739737e83b7c3bd5a1508656787" "22 Oct 18 07:19:47 [GMT]" "/" ".ipython.org" nil]
+  [url-cookie "HttpOnly" nil "22 Oct 18 07:19:47 [GMT]" "/" ".ipython.org" nil])
+ (".amazon.com"
+  [url-cookie "session-id" "144-9126497-4466226" "01-Jan-2036 08:00:01.00 GMT" "/" ".amazon.com" nil]
+  [url-cookie "session-id-time" "2082787201l" "01-Jan-2036 08:00:01.00 GMT" "/" ".amazon.com" nil])
+ ("bash.im"
+  [url-cookie "ls_index" "%7B%22ts%22%3A1508533199%2C%22cnt%22%3A65210%2C%22id%22%3A447344%7D" "04-Nov-2017 11:19:25.00 GMT" "/" "bash.im" nil]
+  [url-cookie "ls_comics" "%7B%22ts%22%3A1508533199%2C%22cnt%22%3A1599%2C%22id%22%3A20171020%7D" "04-Nov-2017 11:19:25.00 GMT" "/" "bash.im" nil]
+  [url-cookie "ls_abyssbest" "%7B%22ts%22%3A1508533199%2C%22cnt%22%3A3864%2C%22id%22%3A299157%7D" "04-Nov-2017 11:19:25.00 GMT" "/" "bash.im" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".kinopoisk.ru"
+  [url-cookie "last_visit" "2017-10-21+14%3A44%3A29" "05-Dec-2017 11:44:29.00 GMT" "/" ".kinopoisk.ru" t]
+  [url-cookie "my_perpages" "%5B%5D" "21-Oct-2018 11:44:41.00 GMT" "/" ".kinopoisk.ru" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
