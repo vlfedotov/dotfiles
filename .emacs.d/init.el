@@ -9,16 +9,21 @@
 
 (add-to-list 'default-frame-alist '(font . "Source Code Pro 10"))
 (add-to-list 'default-frame-alist '(font . "Hack 10" ))
-(set-face-attribute 'default t :font "Source Code Pro 10" )
+(add-to-list 'default-frame-alist '(font . "Inconsolata 10" ))
+
+(set-face-attribute 'default t :font "Inconsolata 14" )
+;;(set-face-attribute 'default t :font "Source Code Pro 10" )
 ;;(set-face-attribute 'default t :font "Hack 10" )
 
-(ac-config-default)
+;;(ac-config-default)
 
 ;;keep cursor at same position when scrolling
 (setq scroll-preserve-screen-position 1)
 ;;scroll window up/down by one line
 (global-set-key (kbd "M-n") (kbd "C-u 1 C-v"))
 (global-set-key (kbd "M-p") (kbd "C-u 1 M-v"))
+
+(require 'helm-config)
 
 (when (window-system)
   (tool-bar-mode -1)
@@ -46,8 +51,9 @@
         )
     )
 
+;; Относительные номера строк
+(require 'linum-relative)
 (global-linum-mode t)
-
 (linum-mode)
 (linum-relative-global-mode)
 (setq linum-relative-current-symbol "")
@@ -56,15 +62,22 @@
 ; (setq whitespace-style '(face tabs lines-tail trailing))
 (global-whitespace-mode t)
 
-(require 'pomodoro)
-(pomodoro-add-to-mode-line)
+;;(require 'pomodoro)
+;;(pomodoro-add-to-mode-line)
 
-(add-to-list 'auto-mode-alist '("components\\/.*\\.js\\'" . rjsx-mode))
+;;(add-to-list 'auto-mode-alist '("components\\/.*\\.js\\'" . rjsx-mode))
 
 (global-set-key (kbd "M-i") 'previous-line)
 (global-set-key (kbd "M-k") 'next-line)
 (global-set-key (kbd "M-j") 'backward-char)
 (global-set-key (kbd "M-l") 'forward-char)
+
+;; Переходы между окнами по Shift-стрелки
+(windmove-default-keybindings)
+;;(global-set-key (kbd "M-S-j")  'windmove-left)
+;;(global-set-key (kbd "C-c <right>") 'windmove-right)
+;;(global-set-key (kbd "C-c <up>")    'windmove-up)
+;;(global-set-key (kbd "C-c <down>")  'windmove-down)
 
 (global-set-key (kbd "C-o") 'er/expand-region)
 
@@ -98,14 +111,14 @@
 
 (projectile-global-mode)
 (global-set-key (kbd "C-c h") 'helm-projectile)
-(global-flycheck-mode -1)
+;;(global-flycheck-mode -1)
 
-(ido-mode 1)
-(ido-everywhere 1)
-(flx-ido-mode 1)
+;;(ido-mode 1)
+;;(ido-everywhere 1)
+;;(flx-ido-mode 1)
 ;; disable ido faces to see flx highlights.
-(setq ido-enable-flex-matching t)
-(setq ido-use-faces nil)
+;;(setq ido-enable-flex-matching t)
+;;(setq ido-use-faces nil)
 
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
@@ -119,7 +132,7 @@
 (setq dired-omit-mode t)
 ;(setq-default dired-omit-files-p t)
 
-					;(setq dired-omit-files
+;(setq dired-omit-files
 ;                (concat dired-omit-files "\\.pyc$"))
 ;(setq dired-omit-files "\\|^\\..+$\\|\\.pdf$\\|\\.pyc$")
 ;(define-key dired-mode-map (kbd "f") 'dired-find-alternate-file)
@@ -156,11 +169,11 @@
  '(custom-enabled-themes (quote (sanityinc-tomorrow-eighties)))
  '(custom-safe-themes
    (quote
-    ("628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" default)))
+    ("a4df5d4a4c343b2712a8ed16bc1488807cd71b25e3108e648d4a26b02bc990b3" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" default)))
  '(ecb-options-version "2.50")
  '(package-selected-packages
    (quote
-    (better-defaults linum-relative powerline ace-jump-mode flx-ido expand-region color-theme-sanityinc-tomorrow))))
+    (dracula-theme better-defaults linum-relative powerline ace-jump-mode flx-ido expand-region color-theme-sanityinc-tomorrow))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -168,3 +181,6 @@
  ;; If there is more than one, they won't work right.
  )
 (put 'dired-find-alternate-file 'disabled nil)
+
+(require 'dracula-theme)
+(load-theme 'dracula t)
