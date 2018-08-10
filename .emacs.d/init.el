@@ -11,7 +11,7 @@
 (add-to-list 'default-frame-alist '(font . "Hack 10" ))
 (add-to-list 'default-frame-alist '(font . "Inconsolata 10" ))
 
-(set-face-attribute 'default t :font "Inconsolata 14" )
+(set-face-attribute 'default t :font "Inconsolata 16" )
 ;;(set-face-attribute 'default t :font "Source Code Pro 10" )
 ;;(set-face-attribute 'default t :font "Hack 10" )
 
@@ -113,12 +113,12 @@
 (global-set-key (kbd "C-c h") 'helm-projectile)
 ;;(global-flycheck-mode -1)
 
-;;(ido-mode 1)
-;;(ido-everywhere 1)
-;;(flx-ido-mode 1)
+(ido-mode 1)
+(ido-everywhere 1)
+(flx-ido-mode 1)
 ;; disable ido faces to see flx highlights.
-;;(setq ido-enable-flex-matching t)
-;;(setq ido-use-faces nil)
+(setq ido-enable-flex-matching t)
+(setq ido-use-faces nil)
 
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
