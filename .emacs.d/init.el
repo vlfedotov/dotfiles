@@ -19,11 +19,34 @@
 
 ;;keep cursor at same position when scrolling
 (setq scroll-preserve-screen-position 1)
-;;scroll window up/down by one line
+;;scroll window up/down by one linei
 (global-set-key (kbd "M-n") (kbd "C-u 1 C-v"))
 (global-set-key (kbd "M-p") (kbd "C-u 1 M-v"))
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Helm
+
 (require 'helm-config)
+
+(global-set-key (kbd "C-x b") 'helm-buffers-list)
+(global-set-key (kbd "C-x m") 'helm-M-x)
+(global-set-key (kbd "M-y") 'helm-show-kill-ring)
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
+(global-set-key (kbd "C-c h") 'helm-projectile)
+
+(require 'helm-swoop)
+(global-set-key (kbd "M-]") 'helm-swoop)
+(global-set-key (kbd "M-[") 'helm-swoop-back-to-last-point)
+(define-key isearch-mode-map (kbd "M-]") 'helm-swoop-from-isearch)
+
+
+(projectile-global-mode)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; PROGRAMMING
+
+
 
 (when (window-system)
   (tool-bar-mode -1)
@@ -109,8 +132,6 @@
   (newline))
 (global-set-key (kbd "C-c o") 'insert-line)
 
-(projectile-global-mode)
-(global-set-key (kbd "C-c h") 'helm-projectile)
 ;;(global-flycheck-mode -1)
 
 (ido-mode 1)
@@ -130,15 +151,15 @@
 (setq dired-recursive-deletes (quote top))
 (add-hook 'dired-load-hook '(lambda () (require 'dired-x)))
 (setq dired-omit-mode t)
-;(setq-default dired-omit-files-p t)
+;;(setq-default dired-omit-files-p t)
 
-;(setq dired-omit-files
-;                (concat dired-omit-files "\\.pyc$"))
-;(setq dired-omit-files "\\|^\\..+$\\|\\.pdf$\\|\\.pyc$")
-;(define-key dired-mode-map (kbd "f") 'dired-find-alternate-file)
-;(define-key dired-mode-map (kbd "^") (lambda ()
-;                                       (interactive)
-;                                       (find-alternate-file "..")))
+;;(setq dired-omit-files
+;;                (concat dired-omit-files "\\.pyc$"))
+;;(setq dired-omit-files "\\|^\\..+$\\|\\.pdf$\\|\\.pyc$")
+;;(define-key dired-mode-map (kbd "f") 'dired-find-alternate-file)
+;;(define-key dired-mode-map (kbd "^") (lambda ()
+;;                                       (interactive)
+;;                                       (find-alternate-file "..")))
 
 (global-set-key (kbd "C-x g") 'magit-status)
 
@@ -173,7 +194,7 @@
  '(ecb-options-version "2.50")
  '(package-selected-packages
    (quote
-    (dracula-theme better-defaults linum-relative powerline ace-jump-mode flx-ido expand-region color-theme-sanityinc-tomorrow))))
+    (helm-swoop dracula-theme better-defaults linum-relative powerline ace-jump-mode flx-ido expand-region color-theme-sanityinc-tomorrow))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
