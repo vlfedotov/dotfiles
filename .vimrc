@@ -1,5 +1,6 @@
 
 noremap ; :
+let mapleader="\<space>"
 
 
 " ------ Plugins ------- "
@@ -7,6 +8,7 @@ noremap ; :
 execute pathogen#infect()
 execute pathogen#helptags()
 
+source ~/.vim/configs/*
 " autocmd! bufwritepost .vimrc source %
 
 autocmd StdinReadPre * let s:std_in=1
@@ -33,19 +35,8 @@ set mouse=a
 
 map <f3> :NERDTreeToggle<CR>
 
-let mapleader="\<space>"
 
-" Work with Tabs
-set showtabline=2 
 
-map <Leader>n :tabprevious<CR>
-map <Leader>m :tabnext<CR>
-
-noremap <Leader>T :tabnew<CR>
-noremap <Leader>e :wq<CR>
-noremap <Leader>E :wqa<CR>
-noremap <Leader>q :q!<CR>
-noremap <Leader>Q :qa!<CR>
 
 " Copy-paste the line below
 map <c-d> yyp
@@ -57,7 +48,11 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Theme
-set t_Co=256
+"
+if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
+      set t_Co=256
+  endif
+" set t_Co=256
 if (has("termguicolors"))
   set termguicolors
 endif
