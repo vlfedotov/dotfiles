@@ -1,15 +1,46 @@
 
-noremap ; :
+
+" noremap ; :
 let mapleader="\<space>"
 
+nmap <Leader>ev :e ~/.vimrc<CR>
 
 " ------ Plugins ------- "
 
-execute pathogen#infect()
-execute pathogen#helptags()
+set nocompatible
+filetype off
 
-source ~/.vim/configs/*
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'scrooloose/nerdtree'
+Plugin 'majutsushi/tagbar'
+Plugin 'vim-airline/vim-airline'
+
+
+call vundle#end()
+filetype plugin indent on
+
+
+" Autosaving on change
+autocmd TextChanged,TextChangedI <buffer> silent write
+" GitGutter update highlights on update buffer
+autocmd BufWritePost * GitGutter
+
+
+"execute pathogen#infect()
+"execute pathogen#helptags()
+
+source ~/.vim/configs/windows.vim
+source ~/.vim/configs/tabs.vim
+source ~/.vim/configs/folding.vim
 " autocmd! bufwritepost .vimrc source %
+
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
@@ -27,13 +58,15 @@ set guifont=Inconsolata\ Nerd\ Font
 " A command-line fuzzy finder
 " set rtp+=~/.fzf
 
-" set pastetoggle=<F2>
+
+set pastetoggle=<F2>
 " set clipboard=unnamed
 
 set mouse=a
 " set bs=2
 
-map <f3> :NERDTreeToggle<CR>
+map <F3> :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 
 
 
@@ -47,6 +80,9 @@ map <c-d> yyp
 vnoremap < <gv
 vnoremap > >gv
 
+nnoremap j gj
+nnoremap k gk
+
 " Theme
 "
 if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
@@ -59,17 +95,16 @@ endif
 if &term =~ '256color'
     set t_ut = 
 endif
-" color wombat256mod
+
+color wombat256mod
 " color monokai
-colorscheme OceanicNext
+" colorscheme OceanicNext
 " set background=dark
 " colorscheme solarized
 " let g:solarized_termcolors=256
 
 " Stuff
 syntax on
-filetype off
-filetype plugin indent on
 set number relativenumber
 
 " Highlight 81-st column
