@@ -21,6 +21,7 @@ Plugin 'ryanoasis/vim-devicons'
 Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
 Plugin 'vim-airline/vim-airline'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 
 call vundle#end()
@@ -28,7 +29,7 @@ filetype plugin indent on
 
 
 " Autosaving on change
-autocmd TextChanged,TextChangedI <buffer> silent write
+" autocmd TextChanged,TextChangedI <buffer> silent write
 " GitGutter update highlights on update buffer
 autocmd BufWritePost * GitGutter
 
@@ -67,8 +68,6 @@ set mouse=a
 
 map <F3> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
-
-
 
 
 " Copy-paste the line below
