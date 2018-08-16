@@ -22,6 +22,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
 Plugin 'vim-airline/vim-airline'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'leafgarland/typescript-vim'
 
 
 call vundle#end()
