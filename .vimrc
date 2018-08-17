@@ -23,11 +23,24 @@ Plugin 'majutsushi/tagbar'
 Plugin 'vim-airline/vim-airline'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'tpope/vim-surround'
+Plugin 'gko/vim-coloresque'
+Plugin 'flazz/vim-colorschemes'
 
 
 call vundle#end()
 filetype plugin indent on
 
+
+set list!
+set listchars=tab:▸▸           " ┐
+" set listchars+=space:.
+set listchars+=trail:·         " │ Use custom symbols to
+" set listchars+=eol:↴         " │ represent invisible characters
+set listchars+=nbsp:_          " ┘
+
+" highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red | match ExtraWhitespace /^\t*\zs \+/
 
 " Autosaving on change
 " autocmd TextChanged,TextChangedI <buffer> silent write
@@ -65,7 +78,14 @@ set pastetoggle=<F2>
 " set clipboard=unnamed
 
 set mouse=a
+set mousehide
 " set bs=2
+
+set ruler
+
+set scrolloff=5
+
+set wildmenu
 
 map <F3> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
@@ -75,7 +95,6 @@ nmap <F8> :TagbarToggle<CR>
 map <c-d> yyp
 " Remove highlighting the search
 " noremap <esc> :nohlsearch<CR>
-
 " Map <> keys for moving text block (after visual them)
 vnoremap < <gv
 vnoremap > >gv
@@ -137,7 +156,8 @@ set smartcase
 
 
 
-" set laststatus=2
+set laststatus=2
+set cursorline
 
 " let g:ctrlp_max_height=15
 set wildignore+=*.pyc
