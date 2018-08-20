@@ -48,9 +48,6 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red | match ExtraWhitesp
 autocmd BufWritePost * GitGutter
 
 
-"execute pathogen#infect()
-"execute pathogen#helptags()
-
 source ~/.vim/configs/windows.vim
 source ~/.vim/configs/tabs.vim
 source ~/.vim/configs/folding.vim
@@ -211,5 +208,3 @@ function! HelpInNewTab()
 endfunction
 
 
-
-" map <f9> :w\|!clear && /home/vlfedotov/progs/anaconda/bin/python %

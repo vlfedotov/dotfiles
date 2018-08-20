@@ -1,0 +1,24 @@
+{
+    "workbench.colorTheme": "Darcula",
+    "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 25,
+    "editor.lineNumbers": "relative",
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "python.venvPath": "~/.local/share/virtualenvs,${workspaceFolder}/venv",
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+        ".vscode": true,
+        "**/*.egg-info": true,
+        ".cache": true
+    }
+}
